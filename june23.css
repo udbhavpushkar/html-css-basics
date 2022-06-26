@@ -1,0 +1,50 @@
+h1{
+  color: blue;
+}
+
+body{
+  /* backgroubd image */
+  /* background: url("image url"); */
+  background-color: aquamarine;
+}
+
+.square{
+  /* dont display */
+  /* display: none; */
+
+  /* invisible */
+  visibility: hidden;
+
+  color: white;
+  /* background color */
+  background: rgb(230, 144, 144);
+  height: 100px;
+  width: 60%;
+  /* two value => up/down , left-right*/
+  margin: auto;
+  padding: 20px 40px;
+  /* text-align: center; */
+  opacity: 70%;
+  /* border: 2px solid rgb(63, 218, 63); */
+  border-radius: 30px;
+  
+}
+
+.circle{
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  border-radius: 50%;
+}
+
+/* vw, vh => viewport width, height */
+#parent-circle{
+  margin: 40px 20px;
+  width: 80vw;
+  background-color: lightblue;
+  /* box-shadow: 0px 6px 12px red; */
+  padding: 20px;
+  border-bottom: 4px dashed red;
+  border-top-left-radius: 40px;
+  /* transform: rotate(45deg); */
+}
