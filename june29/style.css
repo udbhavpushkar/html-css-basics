@@ -1,0 +1,35 @@
+.wrapper{
+  display: flex;
+}
+
+.sidebar{
+  width: 30%;
+  border: 1px solid black;
+}
+
+.main{
+  width: 70%;
+  border: 1px solid red;
+}
+
+
+.sidebar div{
+  padding: 10px;
+  background-color: aqua;
+  border-bottom: 1px solid saddlebrown;
+}
+
+@media only screen and (min-width: 480px) {
+  .wrapper{
+    display: block;
+  }
+
+  .sidebar{
+    width: 100%;
+    display: flex;
+  }
+
+  .main{
+    width: 100%;
+  }
+}

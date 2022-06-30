@@ -1,0 +1,102 @@
+input[name]{
+  color: red
+}
+
+a:visited{
+  color: goldenrod;
+}
+
+input:focus{
+  border-radius: 20px;
+}
+
+#box{
+  background-color: blue;
+}
+
+.red{
+  background-color: red;
+  /* background-color: red !important; */
+  color: beige;
+}
+
+.square{
+  height: 300px;
+  width: 300px;
+  border: 2px solid mediumslateblue;
+  background-color: green;
+}
+
+.sq-shape{
+  width: 400px;
+  height: 400px;
+}
+
+.el-shape{
+  width: 500px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.ci-shape{
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+}
+
+.animate{
+  animation-name: udbhav;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+.border{
+  border: 2px solid black;
+}
+
+@keyframes udbhav {
+  0%{
+    height: 400px;
+    width: 400px;
+    background-color: aquamarine;
+  }
+  50%{
+    height: 200px;
+    width: 200px;
+    background-color: violet;
+  }
+  100%{
+    height: 400px;
+    width: 400px;
+    background-color: aquamarine;
+  }
+}
+
+.box{
+  height: 200px;
+  width: 400px;
+  position: relative;
+}
+
+.child{
+  position:absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+.round-animate{
+  animation: round 2s 2s infinite;
+}
+
+@keyframes round {
+  from{
+    right: 0px;
+    bottom: 0px;
+  }
+  
+  to{
+    bottom: 0px;
+    left: 0px;
+  }
+
+}

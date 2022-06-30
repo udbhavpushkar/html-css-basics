@@ -1,0 +1,83 @@
+body{
+  margin: 0px;
+}
+
+.logo{
+  height: 100px;
+  width: 150px;
+  margin-right: 20px;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header div{
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.navbar{
+  /* position: sticky;
+  top: 0; */
+  display: flex;
+  background-color: red;
+  color: yellow;
+  justify-content: space-evenly;
+}
+
+.navbar > div{
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.navbar > div:hover{
+  background-color: rgb(154, 14, 14);
+  cursor: pointer;
+}
+
+.main-content{
+  display: flex;
+}
+
+.content{
+  width: 70%;
+  font-size: 1.6em;
+  text-align: justify;
+  /* max-height: 75vh; */
+  /* overflow: scroll; */
+}
+
+.sidebar{
+  width: 30%;
+}
+
+.form-input{
+  padding: 5px;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.form-input::placeholder{
+  color: blueviolet;
+  font-weight: 500;
+}
+
+.form-control{
+  width: 60%;
+  margin: 10px auto;
+}
+
+.fixed{
+  position: fixed;
+  top: 0px;
+}
+
+.sticky{
+  position: sticky;
+  top: 0px;
+}

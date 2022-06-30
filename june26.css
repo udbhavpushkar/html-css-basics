@@ -1,0 +1,65 @@
+/* Simple selectors by name , class(.) or id(#) */
+form{
+  border: 1px solid rgb(29, 41, 16);
+}
+
+.password-field{
+  padding: 5px 10px;
+  background-color: bisque;
+}
+
+#multiline{
+  border: 5px dashed yellowgreen;
+}
+
+
+/* Group elements for same properties */
+div, h2, p{
+  color: red;
+}
+
+
+/* Descendant (all childern in any level) elements selector */
+div p{
+  font-size: 25px;
+}
+
+/* Child (only 1st level child) selector */
+/* div > p{
+  font-size: 25px;
+} */
+
+
+.btn{
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 1px solid white;
+  background-color: green;
+  color: white;
+}
+/* pseudo selectors */
+
+/* :hover => mouse over element */
+.btn:hover{ 
+  background-color: rgb(8, 48, 8);
+  cursor: pointer;
+}
+
+input::placeholder{
+  color: rgb(43, 15, 165);
+}
+
+input:focus{
+  border-radius: 10px;
+}
+
+/* a link => :visited , :active*/
+
+
+.over{
+  max-height: 200px;
+  width: 300px;
+  border: 2px dashed purple;
+  padding: 20px 40px;
+  overflow: scroll;
+}
